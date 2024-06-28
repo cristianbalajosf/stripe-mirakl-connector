@@ -48,6 +48,6 @@ Logs are available under the `app` service: `docker-compose logs -tf app`.
 
 ## Setting up SSL Connection
 
-Create the `server.key` `server.crt` and `ca.crt` files in the `app/certs` folder.
+Create the `server.key` `server.crt` and `ca.crt` files in the `/certs` folder.
 Update in the `.env` file the `DATABASE_URL` with the following format: `pgsql://symfony:symfony@db:5432/symfony?sslmode=require`
 ```
