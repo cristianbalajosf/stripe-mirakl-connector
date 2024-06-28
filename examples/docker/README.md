@@ -8,7 +8,7 @@ Based on [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx), 
 Although not production-ready as-is, it shows the basic configuration required.
 
 Some examples of tasks required to complete the configuration for production:
-- Replace the [certs](app/certs) content with valid certificates.
+- Replace the [certs](examples/docker/certs) content with valid certificates.
 - Update [nginx.conf](app/config/nginx.conf) and [php.ini](app/config/php.ini) to fit your server configuration.
 - Deny access to the OpenAPI specs.
 
